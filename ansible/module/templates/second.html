@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<center>
+<table border=2>
+{% for x in data %}
+<tr>
+	<td> <h1> {{ x.id }} </h1> </td>
+	<td> {{ x.names }} </td>
+	<td> {{ x.email }} </td>
+</tr>
+{% endfor %}
+</table>
+</center>
+</body>
+</html>
